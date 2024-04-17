@@ -1,11 +1,12 @@
-﻿* {
+﻿@font-face {
+    font-family: "Comic Sans";
+    src: url(fonts/comic.ttf);
+}
+body {
     background-color: antiquewhite;
 }
-body
-{
-}
 h1 {
-    font-family: "Comic Sans MS", Arial;
+    font-family: "Comic Sans", Arial;
     font-weight: bold;
     font-size: 100px;
     text-align: center;
@@ -23,7 +24,7 @@ img {
 }
 .welcome {
     text-align: center;
-    font-family: "Comic Sans MS", Arial;
+    font-family: "Comic Sans", Arial;
     font-size: 20px;
     color: darkblue;
 }
